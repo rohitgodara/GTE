@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+   http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+	<bean id="dataSource" class="ioc.bean.di.three.config.DataSource">
+		<constructor-arg index="1" type="int" value="10" />
+		<constructor-arg index="3" type="int" value="1" />
+		<constructor-arg name="className"
+			type="java.lang.String" value="MYSQL" />
+		<constructor-arg name="dbName" value="test" />
+		<constructor-arg type="boolean" value="true" />
+	</bean>
+
+</beans>
