@@ -1,4 +1,4 @@
-package com.setter.di.four.controller;
+package di.configuration.five.controller;
 
 import java.util.Date;
 import java.util.HashMap;
@@ -14,8 +14,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.setter.di.four.entity.User;
-import com.setter.di.four.service.UserService;
+import di.configuration.five.entity.User;
+import di.configuration.five.service.UserService;
 
 @RestController
 @RequestMapping("/users")
